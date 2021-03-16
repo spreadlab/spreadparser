@@ -92,7 +92,7 @@ Perceba que os nomes dos atributos sofrerão alterações, removendo acentos, su
 A opção nested permite criar objetos complexos usando uma notação simples nos títulos das planilhas, dessa forma se tivermos os seguintes dados:
 
 | Pokemon | Tipo | Treinador__nome | Treinador__Ginásio |
-| - | - | - |
+| - | - | - | - |
 | Onix | Pedra | Brock | Pewter |
 | Psyduck | Água | Misty | Cerulean | 
 
@@ -128,7 +128,7 @@ O método `find` retorna a primeira ocorrência que atende a uma busca no format
 Dados da planilha:
 
 | Pokemon | Tipo | Treinador__nome | Treinador__Ginásio |
-| - | - | - |
+| - | - | - | - |
 | Onix | Pedra | Brock | Pewter |
 | Psyduck | Água | Misty | Cerulean | 
 
