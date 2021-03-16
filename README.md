@@ -56,7 +56,7 @@ A função `Spreadparser.parse` recebe os dados retornados já serializados e re
 | --- | --- | --- | --- | --- |
 | slugify | true | Boolean | Sim | Define se títulos devem ou não ser transformados em slugs | 
 | offset | 0 | Number | Sim | Define um offset para início da lista de resposta |
-| limit | lines.length | Number | Sim | Define a quantidade máxima de itens a serem retornados | 
+| limit | data.length | Number | Sim | Define a quantidade máxima de itens a serem retornados | 
 | nested | true | Boolean | Sim | Define se os títulos da planilha podem ser interpretados como valores aninhados de objetos |  
 
 ### slugify
