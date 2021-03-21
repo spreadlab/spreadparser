@@ -1,0 +1,87 @@
+{
+    "$id": "https://github.com/teles/spreadparser/tree/main/src/spreadsheet.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Representa uma resposta de API de planilha Google ",
+    "type": "object",
+    "required": [
+        "encoding",
+        "version",
+        "feed"
+    ],
+    "properties": {
+        "encoding": {
+            "type": "string",
+            "pattern": "UTF-8"
+        },
+        "version": {
+            "type": "string"
+        },
+        "feed": {
+            "type": "object",
+            "required": [
+                "entry",
+                "updated"
+            ],
+            "properties": {
+                "title": {
+                    "type": "object",
+                    "required": [
+                        "$t"
+                    ]
+                },
+                "updated": {
+                    "type": "object",
+                    "required": [
+                        "$t"
+                    ],
+                    "properties": {
+                        "$t": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "entry": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/cell"
+                    }
+                }
+            }
+        }
+    },
+    "$defs": {
+        "cell": {
+            "type": "object",
+            "required": [
+                "gs$cell"
+            ],
+            "properties": {
+                "gs$cell": {
+                    "type": "object",
+                    "required": [
+                        "$t",
+                        "col",
+                        "row",
+                        "inputValue"
+                    ],
+                    "properties": {
+                        "$t": {
+                            "type": "string"
+                        },
+                        "col": {
+                            "type": "string",
+                            "pattern": "[0-9]+"
+                        },
+                        "row": {
+                            "type": "string",
+                            "pattern": "[0-9]+"
+                        },
+                        "inputValue": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
