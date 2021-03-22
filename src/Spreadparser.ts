@@ -47,5 +47,3 @@ const Spreadparser = (() : Keyable => {
         getSpreadsheetUrl
     };
 })();
-
-export default Spreadparser;
