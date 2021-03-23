@@ -8,10 +8,11 @@ interface Cell {
     value: string;
 }
 
-const Spreadparser = (() : Keyable => {
-    const transformer = new Replacer();
+class Spreadparser {
 
-    function parse(original: Spreadsheet) {
+    static parse(original: Spreadsheet) {
+
+        const replacer = new Replacer();
 
         const data = () => {
             return original.feed.entry.map(entry => {
@@ -23,7 +24,7 @@ const Spreadparser = (() : Keyable => {
             }).reduce(function(data: Keyable[], cell: Cell, index: number, cells: Cell[]) {
                 if(cell.row >= 2) {
                     const title : Keyable = cells.find((c: Cell): boolean => c.col === cell.col && c.row === 1) || {};
-                    const cellValue = transformer.transform(cell.value);
+                    const cellValue = replacer.transform(cell.value);
                     data[cell.row - 2] = data[cell.row - 2] || {};
                     data[cell.row - 2][title.value] = cellValue;
                 }
@@ -38,12 +39,8 @@ const Spreadparser = (() : Keyable => {
         }
     }
 
-    function getSpreadsheetUrl(spreadsheetId: String, sheetNumber: number = 1) {
+    static getSpreadsheetUrl(spreadsheetId: String, sheetNumber: number = 1) {
         return `https://spreadsheets.google.com/feeds/cells/${spreadsheetId}/${sheetNumber}/public/full?alt=json`
     }
-
-    return {
-        parse,
-        getSpreadsheetUrl
-    };
-})();
+}
+export default Spreadparser;
