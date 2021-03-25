@@ -7,6 +7,7 @@
   "scripts": {
     "build": "yarn clear && rollup -c",
     "test": "jest",
+    "test-watch": "jest --watch",
     "clear": "rm -Rf dist",
     "prepublishOnly": "yarn build"
   },
