@@ -1,6 +1,7 @@
 import Replacer from "./Replacer";
 import Spreadsheet from "./SpreadsheetInterface";
 import Keyable from "./KeyableInterface";
+import NestedObject from "./NestedObject";
 
 interface Cell {
     col: number;
@@ -26,7 +27,7 @@ class Spreadparser {
                     const title : Keyable = cells.find((c: Cell): boolean => c.col === cell.col && c.row === 1) || {};
                     const cellValue = replacer.transform(cell.value);
                     data[cell.row - 2] = data[cell.row - 2] || {};
-                    data[cell.row - 2][title.value] = cellValue;
+                    NestedObject.assign(data[cell.row - 2], cellValue, title.value, "__");
                 }
                 return data;
             }, []);
