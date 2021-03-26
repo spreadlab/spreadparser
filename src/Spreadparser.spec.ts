@@ -40,6 +40,6 @@ test('[MIGUEL OHARA] Can parse Spreadsheet data with nestted objects', () => {
         "HEX": "#007FFF",
         "HSV": {"hue": "210°", "saturation": "100%", "value": "100%"},
         "Nome": "Azul celeste brilhante",
-        "RGB": {"blue": "255", "green": "127", "red": "0"}
+        "RGB": {"blue": 255, "green": 127, "red": 0}
     });
 });
