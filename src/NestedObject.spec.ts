@@ -66,17 +66,27 @@ test('[MARS] When paths is not separated assign works as normal assign', () => {
    });
 });
 
-test('[JUPITER] NestedOject overrides property value if needed ', () => {
-    // NestedObject.assign(data, 'Poet', 'people__address__profession');
-    // expect(data).toEqual({
-    //     car: 'Subaru',
-    //     people: {
-    //         profession: 'Poet',
-    //         address: {
-    //             street: 'Sesame Street 21',
-    //             city: 'New York'
-    //         }
-    //     }
-    // });
+test('[JUPITER] Combine repeated values into arrays ', () => {
+    const data: Keyable = {
+        country: 'Brasil',
+        cities: 'São Paulo'
+    };
+
+    NestedObject.assign(data, 'Fortaleza', 'cities');
+    NestedObject.assign(data, 'Curitiba', 'cities');
+    NestedObject.assign(data, 'RJ', 'states');
+    NestedObject.assign(data, 'AM', 'states');
+    NestedObject.assign(data, 'Jalapão', 'place');
+
+    const expectation = {
+        country: 'Brasil',
+        cities: ['São Paulo', 'Fortaleza', 'Curitiba'],
+        states: ['RJ', 'AM'],
+        places: 'Jalapão'
+    };
+
+    console.log(data, expectation);
+    // expect(data).toEqual(expectation);
+
 });
 // SATURN, URANUS, NEPTUNE
