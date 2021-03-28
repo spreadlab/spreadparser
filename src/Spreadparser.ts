@@ -40,7 +40,7 @@ class Spreadparser {
     }
 
     static getSpreadsheetUrl(spreadsheetId: String, sheetNumber: number = 1) {
-        return `https://spreadsheets.google.com/feeds/cells/${spreadsheetId}/${sheetNumber}/public/full?alt=json`
+        return `https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/3/public/full?alt=json`
     }
 }
 export default Spreadparser;

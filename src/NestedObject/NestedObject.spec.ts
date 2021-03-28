@@ -69,24 +69,45 @@ test('[MARS] When paths is not separated assign works as normal assign', () => {
 test('[JUPITER] Combine repeated values into arrays ', () => {
     const data: Keyable = {
         country: 'Brasil',
-        cities: 'São Paulo'
+        city: {
+            name: 'São Paulo'
+        }
     };
 
-    NestedObject.assign(data, 'Fortaleza', 'cities');
-    NestedObject.assign(data, 'Curitiba', 'cities');
+    NestedObject.assign(data, 'Fortaleza', 'city__name');
+    NestedObject.assign(data, 'Bahia', 'city__state');
+    NestedObject.assign(data, 'Curitiba', 'city__name');
     NestedObject.assign(data, 'RJ', 'states');
     NestedObject.assign(data, 'AM', 'states');
-    NestedObject.assign(data, 'Jalapão', 'place');
+    NestedObject.assign(data, 'Jalapão', 'places');
 
     const expectation = {
         country: 'Brasil',
-        cities: ['São Paulo', 'Fortaleza', 'Curitiba'],
+        city: {
+            state: 'Bahia',
+            name: ['São Paulo', 'Fortaleza', 'Curitiba']
+        },
         states: ['RJ', 'AM'],
         places: 'Jalapão'
     };
+    expect(data).toEqual(expectation);
+    const empty: Keyable = {};
 
-    console.log(data, expectation);
-    // expect(data).toEqual(expectation);
+    NestedObject.assign(empty, 'Civil War', 'comics__marvel');
+    NestedObject.assign(empty, 'House of M', 'comics__marvel');
+    NestedObject.assign(empty, 'Thanos Quest', 'comics__marvel');
+    NestedObject.assign(empty, 'Rebirth', 'comics__marvel');
+    NestedObject.assign(empty, 'The Dark Knight', 'comics__dc');
+    NestedObject.assign(empty, 'Zorba: The Greek', 'books');
+    NestedObject.assign(empty, 'Walden', 'books');
+    NestedObject.assign(empty, null, 'books');
 
+    expect(empty).toEqual({
+        comics: {
+            marvel: ['Civil War', 'House of M', 'Thanos Quest', 'Rebirth'],
+            dc: 'The Dark Knight'
+        },
+        books: ['Zorba: The Greek', 'Walden', null]
+    });
 });
 // SATURN, URANUS, NEPTUNE

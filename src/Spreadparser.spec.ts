@@ -1,9 +1,7 @@
 import Spreadparser from "./Spreadparser";
 import Cores from "./mocks/cores.json";
 import CoresNested from "./mocks/cores-profundidade.json";
-
-const coresSheet = Spreadparser.parse(Cores);
-const coresNestedSheet = Spreadparser.parse(CoresNested);
+import CitiesToVisit from './mocks/cities-to-visit.json';
 
 test('[PETER_PARKER] Spreadparser does exists', () => {
     expect(Spreadparser).toBeDefined();
@@ -12,6 +10,7 @@ test('[PETER_PARKER] Spreadparser does exists', () => {
 });
 
 test('[MILES_MORALES] Spreadparser can parse Google Spreadsheet data', () => {
+    const coresSheet = Spreadparser.parse(Cores);
     expect(Array.isArray(coresSheet.data)).toBe(true);
     expect(coresSheet.updated).toBe("2021-03-21T01:46:26.194Z");
     expect(coresSheet.title).toBe("Cores");
@@ -25,7 +24,34 @@ test('[MILES_MORALES] Spreadparser can parse Google Spreadsheet data', () => {
     });
 });
 
-test('[MIGUEL OHARA] Can parse Spreadsheet data with nestted objects', () => {
+test('[HOBIE BROWN] Can parse lists', () => {
+    const citiesToVisitSheet = Spreadparser.parse(CitiesToVisit);
+    expect(Array.isArray(citiesToVisitSheet.data)).toBe(true);
+    expect(citiesToVisitSheet.data).toEqual([
+        {
+            "cities": [
+                "São Paulo",
+                "Rio de Janeiro",
+                "Fortaleza"
+            ],
+            "country": "Brasil"
+        },
+        {
+            "cities": "Montevideo",
+            "country": "Uruguai"
+        },
+        {
+            "cities": [
+                "Buenos Aires",
+                "Mendoza"
+            ],
+            "country": "Argentina"
+        }
+    ]);
+});
+
+test('[MIGUEL OHARA] Can parse Spreadsheet data with nested objects', () => {
+    const coresNestedSheet = Spreadparser.parse(CoresNested);
     expect(Array.isArray(coresNestedSheet.data)).toBe(true);
     coresNestedSheet.data.forEach(function (entry) {
         expect(entry.HSV.hue).toBeDefined();

@@ -5,14 +5,13 @@ class NestedObject {
     static assign(target: Keyable, value: any, paths: string, separator: string =  "__") {
         const pathList = paths.split(separator);
         const property: string = pathList.shift() || "";
-        if(property !== "" && ["object", "undefined"].includes(typeof target[property])) {
 
-            target[property] = target[property]
-                ? target[property]
-                : pathList.length === 0 ? value : {} ;
-            target = target[property];
+        if(property !== "") {
+            target[property] = typeof target[property] === 'undefined'
+                ? (pathList.length === 0 ? value : {})
+                : (pathList.length === 0 ? ([] as any[]).concat(target[property], value) : target[property]);
 
-            this.assign(target, value, pathList.join(separator));
+            this.assign(target[property], value, pathList.join(separator));
         }
     }
 }
