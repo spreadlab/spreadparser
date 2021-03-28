@@ -1,7 +1,7 @@
-import StringToValue from "./StringToValue";
+import StringToValue from "./StringToValue/StringToValue";
 import Spreadsheet from "./SpreadsheetInterface";
 import Keyable from "./KeyableInterface";
-import NestedObject from "./NestedObject";
+import NestedObject from "./NestedObject/NestedObject";
 
 interface Cell {
     col: number;

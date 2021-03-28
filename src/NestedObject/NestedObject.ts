@@ -1,4 +1,4 @@
-import Keyable from "./KeyableInterface";
+import Keyable from "../KeyableInterface";
 
 class NestedObject {
 

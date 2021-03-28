@@ -1,5 +1,5 @@
 import NestedObject from './NestedObject';
-import Keyable from './KeyableInterface';
+import Keyable from '../KeyableInterface';
 
 const newYorPersonWithSubaru = () => {
     return {
