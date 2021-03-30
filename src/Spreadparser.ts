@@ -1,7 +1,7 @@
-import StringToValue from "./StringToValue/StringToValue";
 import Spreadsheet from "./SpreadsheetInterface";
 import Keyable from "./KeyableInterface";
 import NestedObject from "./NestedObject/NestedObject";
+import StringUtilities from "./StringUtilities/StringUtilities";
 
 interface Cell {
     col: number;
@@ -13,7 +13,7 @@ class Spreadparser {
 
     static parse(original: Spreadsheet) {
 
-        const stringToValue = new StringToValue();
+        const stringUtilities = new StringUtilities();
 
         const data = () => {
             return original.feed.entry.map(entry => {
@@ -26,7 +26,7 @@ class Spreadparser {
                 if(cell.row >= 2) {
                     const title : Keyable = cells.find((c: Cell): boolean => c.col === cell.col && c.row === 1) || {};
                     data[cell.row - 2] = data[cell.row - 2] || {};
-                    NestedObject.assign(data[cell.row - 2], stringToValue.transform(cell.value), title.value, "__");
+                    NestedObject.assign(data[cell.row - 2], stringUtilities.fromPatternToValue(cell.value), title.value, "__");
                 }
                 return data;
             }, []);
