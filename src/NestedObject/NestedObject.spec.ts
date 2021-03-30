@@ -148,7 +148,7 @@ test('[SATURN] Can use custom options', () => {
         }
     });
 
-    // TitleCase is snake case and property has more complex name
+    // TitleCase is camel case and property has more complex name
     data = {};
     NestedObject.assign(data, '18h', 'Filme__Horário de exibição', { titleCase: 'camelCase'} );
     NestedObject.assign(data, 'Star Wars', 'Filme __ Nome', { titleCase: 'camelCase'} );
@@ -156,6 +156,17 @@ test('[SATURN] Can use custom options', () => {
     expect(data).toEqual({
         'filme': {
             'horarioDeExibicao': '18h',
+            'nome': 'Star Wars'
+        }
+    });
+    // TitleCase is snake case and property has more complex name
+    data = {};
+    NestedObject.assign(data, '18h', 'Filme__Horário de exibição', { titleCase: 'snakeCase'} );
+    NestedObject.assign(data, 'Star Wars', 'Filme __ Nome', { titleCase: 'snakeCase'} );
+
+    expect(data).toEqual({
+        'filme': {
+            'horario_de_exibicao': '18h',
             'nome': 'Star Wars'
         }
     });
