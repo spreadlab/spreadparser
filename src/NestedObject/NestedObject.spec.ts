@@ -110,4 +110,55 @@ test('[JUPITER] Combine repeated values into arrays ', () => {
         books: ['Zorba: The Greek', 'Walden', null]
     });
 });
-// SATURN, URANUS, NEPTUNE
+
+test('[SATURN] Can use custom options', () => {
+    let data : Keyable = {};
+    NestedObject.assign(data, 'Joseph Maciel', 'person--name');
+
+    expect(data).toEqual({
+        'person--name': 'Joseph Maciel'
+    });
+    // Change separator
+    data = {};
+    NestedObject.assign(data, 'Joseph Maciel', 'person--name', { separator: '--'});
+
+    expect(data).toEqual({
+        'person': {
+            'name': 'Joseph Maciel'
+        }
+    });
+
+    // Change separator and titleCase is none
+    data = {};
+    NestedObject.assign(data, 'Joseph Maciel', 'person--name', { separator: '--', titleCase: 'none'});
+
+    expect(data).toEqual({
+        'person': {
+            'name': 'Joseph Maciel'
+        }
+    });
+
+    // Change separator and titleCase is camelCase
+    data = {};
+    NestedObject.assign(data, 'Joseph Maciel', 'person--name', { separator: '--', titleCase: 'none'});
+
+    expect(data).toEqual({
+        'person': {
+            'name': 'Joseph Maciel'
+        }
+    });
+
+    // TitleCase is snake case and property has more complex name
+    data = {};
+    NestedObject.assign(data, '18h', 'Filme__Horário de exibição', { titleCase: 'camelCase'} );
+    NestedObject.assign(data, 'Star Wars', 'Filme __ Nome', { titleCase: 'camelCase'} );
+
+    expect(data).toEqual({
+        'filme': {
+            'horarioDeExibicao': '18h',
+            'nome': 'Star Wars'
+        }
+    });
+});
+
+// URANUS, NEPTUNE

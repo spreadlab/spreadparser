@@ -1,11 +1,10 @@
 import Keyable from '../KeyableInterface'
+import {CaseStyles} from "../CaseStyles";
 
 interface ReplaceMethod {
     from: RegExp;
     to: Function;
 }
-
-type CaseStyles = 'none' | 'camelCase' | 'snakeCase' ;
 
 export default class StringUtilities {
     replacers : ReplaceMethod[] = [];
