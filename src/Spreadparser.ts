@@ -2,6 +2,7 @@ import Spreadsheet from "./SpreadsheetInterface";
 import Keyable from "./KeyableInterface";
 import NestedObject from "./NestedObject/NestedObject";
 import StringUtilities from "./StringUtilities/StringUtilities";
+import {CaseStyles} from "./CaseStyles";
 
 interface Cell {
     col: number;
@@ -9,9 +10,20 @@ interface Cell {
     value: string;
 }
 
+interface SpreadparserOptions {
+    separator?: string;
+    titleCase: CaseStyles;
+}
+
 class Spreadparser {
 
-    static parse(original: Spreadsheet) {
+    private static DefaultSpreadparserOptions: SpreadparserOptions = {
+        separator: '__',
+        titleCase: 'none'
+    };
+
+    static parse(original: Spreadsheet, options: SpreadparserOptions = Spreadparser.DefaultSpreadparserOptions) {
+        options = {...Spreadparser.DefaultSpreadparserOptions, ...options};
 
         const stringUtilities = new StringUtilities();
 
@@ -22,11 +34,17 @@ class Spreadparser {
                     row: Number(entry.gs$cell.row),
                     value: String(entry.gs$cell.$t)
                 };
-            }).reduce(function(data: Keyable[], cell: Cell, index: number, cells: Cell[]) {
-                if(cell.row >= 2) {
-                    const title : Keyable = cells.find((c: Cell): boolean => c.col === cell.col && c.row === 1) || {};
+            }).reduce(function (data: Keyable[], cell: Cell, index: number, cells: Cell[]) {
+                if (cell.row >= 2) {
+                    const title: Keyable = cells.find((c: Cell): boolean => c.col === cell.col && c.row === 1) || {};
                     data[cell.row - 2] = data[cell.row - 2] || {};
-                    NestedObject.assign(data[cell.row - 2], stringUtilities.fromPatternToValue(cell.value), title.value);
+
+                    NestedObject.assign(
+                        data[cell.row - 2],
+                        stringUtilities.fromPatternToValue(cell.value),
+                        title.value,
+                        options
+                    );
                 }
                 return data;
             }, []);
@@ -43,4 +61,5 @@ class Spreadparser {
         return `https://spreadsheets.google.com/feeds/cells/${spreadsheetId}/${sheetNumber}/public/full?alt=json`
     }
 }
+
 export default Spreadparser;

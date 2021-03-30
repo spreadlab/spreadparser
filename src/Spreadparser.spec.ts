@@ -2,6 +2,7 @@ import Spreadparser from "./Spreadparser";
 import Cores from "./mocks/cores.json";
 import CoresNested from "./mocks/cores-profundidade.json";
 import CitiesToVisit from './mocks/cities-to-visit.json';
+import CoresNestedCustomSeparator from "./mocks/cores-profundidade-separator-gt.json"
 
 test('[PETER_PARKER] Spreadparser does exists', () => {
     expect(Spreadparser).toBeDefined();
@@ -68,4 +69,63 @@ test('[MIGUEL OHARA] Can parse Spreadsheet data with nested objects', () => {
         "Nome": "Azul celeste brilhante",
         "RGB": {"blue": 255, "green": 127, "red": 0}
     });
+});
+
+test('[PETER PORKER] .parse method can receive different options', () => {
+    const coresNestedSheet = Spreadparser.parse(CoresNested, { titleCase: "camelCase"});
+
+    coresNestedSheet.data.forEach(function (entry) {
+        expect(entry.hsv.hue).toBeDefined();
+        expect(entry.hsv.saturation).toBeDefined();
+        expect(entry.hsv.value).toBeDefined();
+        expect(entry.rgb.red).toBeDefined();
+        expect(entry.rgb.green).toBeDefined();
+        expect(entry.rgb.blue).toBeDefined();
+    });
+
+    expect(coresNestedSheet.data[36]).toEqual({
+        nome: 'Azul claro',
+        hex: '#ADD8E6',
+        rgb: {
+            red: 173,
+            green: 216,
+            blue: 230
+        },
+        hsv: {
+            hue: '195°',
+            saturation: '25%',
+            value: '90%'
+        },
+        nomeWeb: 'lightblue'
+    });
+
+    const coresNestedCustomSeparatorSheet = Spreadparser.parse(CoresNestedCustomSeparator, {
+        separator: '>',
+        titleCase: "snakeCase"
+    });
+    coresNestedCustomSeparatorSheet.data.forEach(function (entry) {
+        expect(entry.hsv.hue).toBeDefined();
+        expect(entry.hsv.saturation).toBeDefined();
+        expect(entry.hsv.value).toBeDefined();
+        expect(entry.rgb.red).toBeDefined();
+        expect(entry.rgb.green).toBeDefined();
+        expect(entry.rgb.blue).toBeDefined();
+    });
+
+    expect(coresNestedCustomSeparatorSheet.data[36]).toEqual({
+        nome: 'Azul claro',
+        hex: '#ADD8E6',
+        rgb: {
+            red: 173,
+            green: 216,
+            blue: 230
+        },
+        hsv: {
+            hue: '195°',
+            saturation: '25%',
+            value: '90%'
+        },
+        nome_web: 'lightblue'
+    });
+
 });
