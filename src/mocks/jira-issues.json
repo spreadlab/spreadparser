@@ -1,0 +1,3480 @@
+{
+  "version": "1.0",
+  "encoding": "UTF-8",
+  "feed": {
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+    "xmlns$batch": "http://schemas.google.com/gdata/batch",
+    "xmlns$gs": "http://schemas.google.com/spreadsheets/2006",
+    "id": {
+      "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full"
+    },
+    "updated": {
+      "$t": "2021-03-30T15:54:09.690Z"
+    },
+    "category": [
+      {
+        "scheme": "http://schemas.google.com/spreadsheets/2006",
+        "term": "http://schemas.google.com/spreadsheets/2006#cell"
+      }
+    ],
+    "title": {
+      "type": "text",
+      "$t": "Jira Issues"
+    },
+    "link": [
+      {
+        "rel": "alternate",
+        "type": "application/atom+xml",
+        "href": "https://docs.google.com/spreadsheets/u/0/d/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/pubhtml"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#feed",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#post",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#batch",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/batch"
+      },
+      {
+        "rel": "self",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full?alt\u003djson"
+      }
+    ],
+    "author": [
+      {
+        "name": {
+          "$t": "josetelesmaciel"
+        },
+        "email": {
+          "$t": "josetelesmaciel@gmail.com"
+        }
+      }
+    ],
+    "openSearch$totalResults": {
+      "$t": "97"
+    },
+    "openSearch$startIndex": {
+      "$t": "1"
+    },
+    "gs$rowCount": {
+      "$t": "1000"
+    },
+    "gs$colCount": {
+      "$t": "26"
+    },
+    "entry": [
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A7"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Tipo de item"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "7",
+          "col": "1",
+          "inputValue": "Tipo de item",
+          "$t": "Tipo de item"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B7"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Chave"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "7",
+          "col": "2",
+          "inputValue": "Chave",
+          "$t": "Chave"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C7"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Deploy"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "7",
+          "col": "3",
+          "inputValue": "Deploy",
+          "$t": "Deploy"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D7"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Resumo"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "7",
+          "col": "4",
+          "inputValue": "Resumo",
+          "$t": "Resumo"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E7"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Status"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "7",
+          "col": "5",
+          "inputValue": "Status",
+          "$t": "Status"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F7"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Criado"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "7",
+          "col": "6",
+          "inputValue": "Criado",
+          "$t": "Criado"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G7"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Resolvido"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R7C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "7",
+          "col": "7",
+          "inputValue": "Resolvido",
+          "$t": "Resolvido"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A8"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Advertising"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "8",
+          "col": "1",
+          "inputValue": "Advertising",
+          "$t": "Advertising"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B8"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-755"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "8",
+          "col": "2",
+          "inputValue": "VDP-755",
+          "$t": "VDP-755"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C8"
+        },
+        "content": {
+          "type": "text",
+          "$t": "3/9/2021"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "8",
+          "col": "3",
+          "inputValue": "3/9/2021",
+          "numericValue": "44442.0",
+          "$t": "3/9/2021"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D8"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Adicionar espaços de publicidade para Pró Reforma na Revista Pro"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "8",
+          "col": "4",
+          "inputValue": "Adicionar espaços de publicidade para Pró Reforma na Revista Pro",
+          "$t": "Adicionar espaços de publicidade para Pró Reforma na Revista Pro"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E8"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "8",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F8"
+        },
+        "content": {
+          "type": "text",
+          "$t": "3/3/2021 18:09:24"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "8",
+          "col": "6",
+          "inputValue": "03/03/2021 18:09:24",
+          "numericValue": "44258.756527777776",
+          "$t": "3/3/2021 18:09:24"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G8"
+        },
+        "content": {
+          "type": "text",
+          "$t": "3/12/2021 17:29:40"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R8C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "8",
+          "col": "7",
+          "inputValue": "03/12/2021 17:29:40",
+          "numericValue": "44533.72893518519",
+          "$t": "3/12/2021 17:29:40"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A9"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Sessões"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "9",
+          "col": "1",
+          "inputValue": "Sessões",
+          "$t": "Sessões"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B9"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-716"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "9",
+          "col": "2",
+          "inputValue": "VDP-716",
+          "$t": "VDP-716"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C9"
+        },
+        "content": {
+          "type": "text",
+          "$t": "3/1/2021"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "9",
+          "col": "3",
+          "inputValue": "3/1/2021",
+          "numericValue": "44199.0",
+          "$t": "3/1/2021"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D9"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Remover 404 nos assets da Revista Pro"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "9",
+          "col": "4",
+          "inputValue": "Remover 404 nos assets da Revista Pro",
+          "$t": "Remover 404 nos assets da Revista Pro"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E9"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "9",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F9"
+        },
+        "content": {
+          "type": "text",
+          "$t": "2/1/2021 17:38:28"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "9",
+          "col": "6",
+          "inputValue": "02/01/2021 17:38:28",
+          "numericValue": "44198.73504629629",
+          "$t": "2/1/2021 17:38:28"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G9"
+        },
+        "content": {
+          "type": "text",
+          "$t": "3/1/2021 20:10:28"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R9C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "9",
+          "col": "7",
+          "inputValue": "03/01/2021 20:10:28",
+          "numericValue": "44199.84060185185",
+          "$t": "3/1/2021 20:10:28"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A10"
+        },
+        "content": {
+          "type": "text",
+          "$t": "UX"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "10",
+          "col": "1",
+          "inputValue": "UX",
+          "$t": "UX"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B10"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-682"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "10",
+          "col": "2",
+          "inputValue": "VDP-682",
+          "$t": "VDP-682"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C10"
+        },
+        "content": {
+          "type": "text",
+          "$t": "3/24/2021"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "10",
+          "col": "3",
+          "inputValue": "3/24/2021",
+          "$t": "3/24/2021"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D10"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Trocar o peso da fonte dos conteúdos da Revista Pro"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "10",
+          "col": "4",
+          "inputValue": "Trocar o peso da fonte dos conteúdos da Revista Pro",
+          "$t": "Trocar o peso da fonte dos conteúdos da Revista Pro"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E10"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "10",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F10"
+        },
+        "content": {
+          "type": "text",
+          "$t": "11/16/2020 23:21:47"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "10",
+          "col": "6",
+          "inputValue": "11/16/2020 23:21:47",
+          "$t": "11/16/2020 23:21:47"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G10"
+        },
+        "content": {
+          "type": "text",
+          "$t": "3/24/2021 20:13:41"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R10C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "10",
+          "col": "7",
+          "inputValue": "3/24/2021 20:13:41",
+          "$t": "3/24/2021 20:13:41"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A11"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Sessões"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "11",
+          "col": "1",
+          "inputValue": "Sessões",
+          "$t": "Sessões"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B11"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-633"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "11",
+          "col": "2",
+          "inputValue": "VDP-633",
+          "$t": "VDP-633"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C11"
+        },
+        "content": {
+          "type": "text",
+          "$t": "10/26/2020"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "11",
+          "col": "3",
+          "inputValue": "10/26/2020",
+          "$t": "10/26/2020"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D11"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Remover ads da revista pro (canônico e AMP)"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "11",
+          "col": "4",
+          "inputValue": "Remover ads da revista pro (canônico e AMP)",
+          "$t": "Remover ads da revista pro (canônico e AMP)"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E11"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "11",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F11"
+        },
+        "content": {
+          "type": "text",
+          "$t": "10/14/2020 16:35:22"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "11",
+          "col": "6",
+          "inputValue": "10/14/2020 16:35:22",
+          "$t": "10/14/2020 16:35:22"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G11"
+        },
+        "content": {
+          "type": "text",
+          "$t": "10/27/2020 14:00:29"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R11C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "11",
+          "col": "7",
+          "inputValue": "10/27/2020 14:00:29",
+          "$t": "10/27/2020 14:00:29"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A12"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Bug"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "12",
+          "col": "1",
+          "inputValue": "Bug",
+          "$t": "Bug"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B12"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-477"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "12",
+          "col": "2",
+          "inputValue": "VDP-477",
+          "$t": "VDP-477"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C12"
+        },
+        "content": {
+          "type": "text",
+          "$t": "10/20/2020"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "12",
+          "col": "3",
+          "inputValue": "10/20/2020",
+          "$t": "10/20/2020"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D12"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Home da revista-pro tem cache pra 30 dias"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "12",
+          "col": "4",
+          "inputValue": "Home da revista-pro tem cache pra 30 dias",
+          "$t": "Home da revista-pro tem cache pra 30 dias"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E12"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "12",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F12"
+        },
+        "content": {
+          "type": "text",
+          "$t": "6/3/2020 18:48:17"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "12",
+          "col": "6",
+          "inputValue": "06/03/2020 18:48:17",
+          "numericValue": "43896.783530092594",
+          "$t": "6/3/2020 18:48:17"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G12"
+        },
+        "content": {
+          "type": "text",
+          "$t": "10/20/2020 22:07:46"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R12C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "12",
+          "col": "7",
+          "inputValue": "10/20/2020 22:07:46",
+          "$t": "10/20/2020 22:07:46"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A13"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Bug"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "13",
+          "col": "1",
+          "inputValue": "Bug",
+          "$t": "Bug"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B13"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-422"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "13",
+          "col": "2",
+          "inputValue": "VDP-422",
+          "$t": "VDP-422"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C13"
+        },
+        "content": {
+          "type": "text",
+          "$t": "5/22/2020"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "13",
+          "col": "3",
+          "inputValue": "5/22/2020",
+          "$t": "5/22/2020"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D13"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Remover acesso do admin da revista-pro de produção"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "13",
+          "col": "4",
+          "inputValue": "Remover acesso do admin da revista-pro de produção",
+          "$t": "Remover acesso do admin da revista-pro de produção"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E13"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "13",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F13"
+        },
+        "content": {
+          "type": "text",
+          "$t": "4/27/2020 19:15:05"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "13",
+          "col": "6",
+          "inputValue": "4/27/2020 19:15:05",
+          "$t": "4/27/2020 19:15:05"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G13"
+        },
+        "content": {
+          "type": "text",
+          "$t": "5/22/2020 14:42:53"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R13C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "13",
+          "col": "7",
+          "inputValue": "5/22/2020 14:42:53",
+          "$t": "5/22/2020 14:42:53"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A14"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Sessões"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "14",
+          "col": "1",
+          "inputValue": "Sessões",
+          "$t": "Sessões"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B14"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-418"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "14",
+          "col": "2",
+          "inputValue": "VDP-418",
+          "$t": "VDP-418"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C14"
+        },
+        "content": {
+          "type": "text",
+          "$t": "5/13/2020"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "14",
+          "col": "3",
+          "inputValue": "5/13/2020",
+          "$t": "5/13/2020"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D14"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Aumentar Tempo de Validade do Cache da Revista Pro"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "14",
+          "col": "4",
+          "inputValue": "Aumentar Tempo de Validade do Cache da Revista Pro",
+          "$t": "Aumentar Tempo de Validade do Cache da Revista Pro"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E14"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "14",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F14"
+        },
+        "content": {
+          "type": "text",
+          "$t": "4/27/2020 18:40:36"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "14",
+          "col": "6",
+          "inputValue": "4/27/2020 18:40:36",
+          "$t": "4/27/2020 18:40:36"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G14"
+        },
+        "content": {
+          "type": "text",
+          "$t": "5/18/2020 16:54:36"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R14C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "14",
+          "col": "7",
+          "inputValue": "5/18/2020 16:54:36",
+          "$t": "5/18/2020 16:54:36"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A15"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Bug"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "15",
+          "col": "1",
+          "inputValue": "Bug",
+          "$t": "Bug"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B15"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-411"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "15",
+          "col": "2",
+          "inputValue": "VDP-411",
+          "$t": "VDP-411"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C15"
+        },
+        "content": {
+          "type": "text",
+          "$t": "4/27/2020"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "15",
+          "col": "3",
+          "inputValue": "4/27/2020",
+          "$t": "4/27/2020"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D15"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Admin não acessa segunda página de listagem de posts"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "15",
+          "col": "4",
+          "inputValue": "Admin não acessa segunda página de listagem de posts",
+          "$t": "Admin não acessa segunda página de listagem de posts"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E15"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "15",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F15"
+        },
+        "content": {
+          "type": "text",
+          "$t": "4/23/2020 17:00:44"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "15",
+          "col": "6",
+          "inputValue": "4/23/2020 17:00:44",
+          "$t": "4/23/2020 17:00:44"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G15"
+        },
+        "content": {
+          "type": "text",
+          "$t": "4/27/2020 19:37:14"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R15C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "15",
+          "col": "7",
+          "inputValue": "4/27/2020 19:37:14",
+          "$t": "4/27/2020 19:37:14"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A16"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Tarefa técnica"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "16",
+          "col": "1",
+          "inputValue": "Tarefa técnica",
+          "$t": "Tarefa técnica"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B16"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-372"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "16",
+          "col": "2",
+          "inputValue": "VDP-372",
+          "$t": "VDP-372"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C16"
+        },
+        "content": {
+          "type": "text",
+          "$t": "5/19/2020"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "16",
+          "col": "3",
+          "inputValue": "5/19/2020",
+          "$t": "5/19/2020"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D16"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Reduzir o mínimo de máquinas disponíveis no ambiente de produção da Revista Pro"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "16",
+          "col": "4",
+          "inputValue": "Reduzir o mínimo de máquinas disponíveis no ambiente de produção da Revista Pro",
+          "$t": "Reduzir o mínimo de máquinas disponíveis no ambiente de produção da Revista Pro"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E16"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "16",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F16"
+        },
+        "content": {
+          "type": "text",
+          "$t": "3/27/2020 20:35:08"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "16",
+          "col": "6",
+          "inputValue": "3/27/2020 20:35:08",
+          "$t": "3/27/2020 20:35:08"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G16"
+        },
+        "content": {
+          "type": "text",
+          "$t": "5/20/2020 18:08:05"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R16C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "16",
+          "col": "7",
+          "inputValue": "5/20/2020 18:08:05",
+          "$t": "5/20/2020 18:08:05"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A17"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Tarefa técnica"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "17",
+          "col": "1",
+          "inputValue": "Tarefa técnica",
+          "$t": "Tarefa técnica"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B17"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-370"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "17",
+          "col": "2",
+          "inputValue": "VDP-370",
+          "$t": "VDP-370"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C17"
+        },
+        "content": {
+          "type": "text",
+          "$t": "4/27/2020"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "17",
+          "col": "3",
+          "inputValue": "4/27/2020",
+          "$t": "4/27/2020"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D17"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Atualização de família de todas instâncias dos ambientes Beanstalk da Revista Pro"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "17",
+          "col": "4",
+          "inputValue": "Atualização de família de todas instâncias dos ambientes Beanstalk da Revista Pro",
+          "$t": "Atualização de família de todas instâncias dos ambientes Beanstalk da Revista Pro"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E17"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "17",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F17"
+        },
+        "content": {
+          "type": "text",
+          "$t": "3/27/2020 20:22:21"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "17",
+          "col": "6",
+          "inputValue": "3/27/2020 20:22:21",
+          "$t": "3/27/2020 20:22:21"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G17"
+        },
+        "content": {
+          "type": "text",
+          "$t": "4/27/2020 18:38:06"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R17C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "17",
+          "col": "7",
+          "inputValue": "4/27/2020 18:38:06",
+          "$t": "4/27/2020 18:38:06"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A18"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Sessões"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "18",
+          "col": "1",
+          "inputValue": "Sessões",
+          "$t": "Sessões"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B18"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-366"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "18",
+          "col": "2",
+          "inputValue": "VDP-366",
+          "$t": "VDP-366"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C18"
+        },
+        "content": {
+          "type": "text",
+          "$t": "4/27/2020"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "18",
+          "col": "3",
+          "inputValue": "4/27/2020",
+          "$t": "4/27/2020"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D18"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Invalidar automaticamente o cache de um post da Revista Pro"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "18",
+          "col": "4",
+          "inputValue": "Invalidar automaticamente o cache de um post da Revista Pro",
+          "$t": "Invalidar automaticamente o cache de um post da Revista Pro"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E18"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "18",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F18"
+        },
+        "content": {
+          "type": "text",
+          "$t": "3/27/2020 16:52:55"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "18",
+          "col": "6",
+          "inputValue": "3/27/2020 16:52:55",
+          "$t": "3/27/2020 16:52:55"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G18"
+        },
+        "content": {
+          "type": "text",
+          "$t": "4/27/2020 19:35:45"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R18C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "18",
+          "col": "7",
+          "inputValue": "4/27/2020 19:35:45",
+          "$t": "4/27/2020 19:35:45"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A19"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Tarefa técnica"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "19",
+          "col": "1",
+          "inputValue": "Tarefa técnica",
+          "$t": "Tarefa técnica"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B19"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-287"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "19",
+          "col": "2",
+          "inputValue": "VDP-287",
+          "$t": "VDP-287"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C3"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "C19"
+        },
+        "content": {
+          "type": "text",
+          "$t": "3/26/2020"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C3"
+          }
+        ],
+        "gs$cell": {
+          "row": "19",
+          "col": "3",
+          "inputValue": "3/26/2020",
+          "$t": "3/26/2020"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D19"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Criar sistema de cache pra revista pro"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "19",
+          "col": "4",
+          "inputValue": "Criar sistema de cache pra revista pro",
+          "$t": "Criar sistema de cache pra revista pro"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E19"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "19",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F19"
+        },
+        "content": {
+          "type": "text",
+          "$t": "1/24/2020 16:38:13"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "19",
+          "col": "6",
+          "inputValue": "1/24/2020 16:38:13",
+          "$t": "1/24/2020 16:38:13"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G19"
+        },
+        "content": {
+          "type": "text",
+          "$t": "4/3/2020 18:53:37"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R19C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "19",
+          "col": "7",
+          "inputValue": "04/03/2020 18:53:37",
+          "numericValue": "43894.7872337963",
+          "$t": "4/3/2020 18:53:37"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C1"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "A20"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Epic"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C1"
+          }
+        ],
+        "gs$cell": {
+          "row": "20",
+          "col": "1",
+          "inputValue": "Epic",
+          "$t": "Epic"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C2"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "B20"
+        },
+        "content": {
+          "type": "text",
+          "$t": "VDP-218"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C2"
+          }
+        ],
+        "gs$cell": {
+          "row": "20",
+          "col": "2",
+          "inputValue": "VDP-218",
+          "$t": "VDP-218"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C4"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "D20"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Otimizar performance da Revista Pro utilizando CloudFront"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C4"
+          }
+        ],
+        "gs$cell": {
+          "row": "20",
+          "col": "4",
+          "inputValue": "Otimizar performance da Revista Pro utilizando CloudFront",
+          "$t": "Otimizar performance da Revista Pro utilizando CloudFront"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C5"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "E20"
+        },
+        "content": {
+          "type": "text",
+          "$t": "Entregue"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C5"
+          }
+        ],
+        "gs$cell": {
+          "row": "20",
+          "col": "5",
+          "inputValue": "Entregue",
+          "$t": "Entregue"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C6"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "F20"
+        },
+        "content": {
+          "type": "text",
+          "$t": "11/18/2019 20:57:12"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C6"
+          }
+        ],
+        "gs$cell": {
+          "row": "20",
+          "col": "6",
+          "inputValue": "11/18/2019 20:57:12",
+          "$t": "11/18/2019 20:57:12"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C7"
+        },
+        "updated": {
+          "$t": "2021-03-30T15:54:09.690Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#cell"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "G20"
+        },
+        "content": {
+          "type": "text",
+          "$t": "5/20/2020 19:52:20"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/cells/1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U/4/public/full/R20C7"
+          }
+        ],
+        "gs$cell": {
+          "row": "20",
+          "col": "7",
+          "inputValue": "5/20/2020 19:52:20",
+          "$t": "5/20/2020 19:52:20"
+        }
+      }
+    ]
+  }
+}
