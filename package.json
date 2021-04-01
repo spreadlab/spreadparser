@@ -7,7 +7,8 @@
   "scripts": {
     "build": "yarn clear && rollup -c",
     "test": "jest",
-    "test-watch": "jest --watch",
+    "test:watch": "jest --watch",
+    "test:coverage": "npm test -- --coverage",
     "clear": "rm -Rf dist",
     "prepublishOnly": "yarn build"
   },
@@ -33,6 +34,12 @@
   "engines": {
     "node": ">=12",
     "npm": ">=6"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "lcov"
+    ]
   },
   "homepage": "https://github.com/teles/spreadparser#readme",
   "dependencies": {},

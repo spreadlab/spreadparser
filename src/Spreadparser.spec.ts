@@ -200,3 +200,10 @@ test('[OTTO OCTAVIUS] Parses insufficient data', () => {
     });
     expect(someEmptyRows.data.length).toBe(4);
 });
+
+test('[AARON AIKMAN] Methods getSpreadsheetUrl works', () => {
+    const urlWithoutNumber = Spreadparser.getSpreadsheetUrl('abc123');
+    expect(urlWithoutNumber).toBe('https://spreadsheets.google.com/feeds/cells/abc123/1/public/full?alt=json');
+    const urlWithNumber = Spreadparser.getSpreadsheetUrl('abc123', 28);
+    expect(urlWithNumber).toBe('https://spreadsheets.google.com/feeds/cells/abc123/28/public/full?alt=json');
+});

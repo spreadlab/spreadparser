@@ -13,9 +13,7 @@ export default class StringUtilities {
         this.replacers = [{
             from: /^TRUE|FALSE$/i,
             to: function(bool: string){
-                return bool.toLowerCase() === "true"
-                    ? true
-                    : bool.toLowerCase() === "false" ? false : bool;
+                return bool.toLowerCase() === "true";
             }
         }, {
             from: /^-?[0-9]+(.[0-9]+)?$/,
