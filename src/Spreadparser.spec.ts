@@ -133,19 +133,19 @@ test('[PETER PORKER] .parse method can receive different options', () => {
 
 test('[TAKUYA YAMASHIRO ] Can parse Spreadsheet data not starting in first row', () => {
     // Header row is less than zero
-    let jiraIssues = Spreadparser.parse(JiraIssues, {separator: "__", titleCase: 'snakeCase', headerRow: -2 });
+    let jiraIssues = Spreadparser.parse(JiraIssues, {separator: "__", titleCase: 'snakeCase', headerRow: -2});
     expect(jiraIssues.data[0].tipo_de_item).toBe('Advertising');
     expect(jiraIssues.data[12].resumo).toBe('Otimizar performance da Revista Pro utilizando CloudFront');
     expect(jiraIssues.data.length).toBe(13);
 
     // Header row is equal zero
-    jiraIssues = Spreadparser.parse(JiraIssues, {separator: "__", titleCase: 'snakeCase', headerRow: 0 });
+    jiraIssues = Spreadparser.parse(JiraIssues, {separator: "__", titleCase: 'snakeCase', headerRow: 0});
     expect(jiraIssues.data[0].tipo_de_item).toBe('Advertising');
     expect(jiraIssues.data[12].resumo).toBe('Otimizar performance da Revista Pro utilizando CloudFront');
     expect(jiraIssues.data.length).toBe(13);
 
     // Header row is less than real first row number
-    jiraIssues = Spreadparser.parse(JiraIssues, {separator: "__", titleCase: 'snakeCase', headerRow: 6 });
+    jiraIssues = Spreadparser.parse(JiraIssues, {separator: "__", titleCase: 'snakeCase', headerRow: 6});
     expect(jiraIssues.data[0].tipo_de_item).toBe('Advertising');
     expect(jiraIssues.data[12].resumo).toBe('Otimizar performance da Revista Pro utilizando CloudFront');
     expect(jiraIssues.data.length).toBe(13);
@@ -156,6 +156,20 @@ test('[TAKUYA YAMASHIRO ] Can parse Spreadsheet data not starting in first row',
     expect(jiraIssues.data[12].Resumo).toBe('Otimizar performance da Revista Pro utilizando CloudFront');
     expect(jiraIssues.data.length).toBe(13);
 
-    // const fakePeople = Spreadparser.parse(FakePeople, { headerRow: 5});
-    // console.log(fakePeople);
+    // Header is not the first line with content
+    const fakePeople = Spreadparser.parse(FakePeople, {headerRow: 5, separator: '>', titleCase: "camelCase"});
+    expect(fakePeople.data[fakePeople.data.length - 1]).toEqual({
+        "nome": "Geraldo Yago Nicolas Brito",
+        "idade": 60,
+        "nascimento": "11/05/1959",
+        "signo": "Touro",
+        "email": "geraldoyagonicolasbrito_@exemplo.org.br",
+        "endereco": {
+            "logradouro": "Rua Tietinga",
+            "numero": 997,
+            "cidade": "São Paulo",
+            "estado": "SP"
+        },
+        "telefone": "(11) 3885-2421"
+    })
 });

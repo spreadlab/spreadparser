@@ -172,4 +172,10 @@ test('[SATURN] Can use custom options', () => {
     });
 });
 
-// URANUS, NEPTUNE
+test('[URANUS] Assign nothing it path is empty', () => {
+    const data = {};
+    NestedObject.assign(data, 'Joseph Maciel', '', { separator: '--', titleCase: 'none'});
+    expect(data).toEqual({});
+});
+
+//  NEPTUNE

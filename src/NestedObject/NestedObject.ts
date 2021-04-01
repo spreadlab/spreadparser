@@ -16,7 +16,7 @@ class NestedObject {
 
     static assign(target: Keyable, value: any, paths: string, options: AssignOptions = NestedObject.DefaultAssignOptions) {
         options = {...NestedObject.DefaultAssignOptions, ...options};
-        const pathList = paths.split(options.separator as string);
+        const pathList = (paths || "").split(options.separator as string);
         const property: string = StringUtilities.toCase(pathList.shift() || "", options.titleCase);
 
         if(property !== "") {
