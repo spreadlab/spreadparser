@@ -7,6 +7,7 @@ import JiraIssues from "./mocks/jira-issues.json";
 import FakePeople from "./mocks/fake-people.json";
 import TitleWithoutData from "./mocks/title-without-data.json";
 import DataWithoutTitle from "./mocks/data-without-title.json";
+import SomeEmptyRows from "./mocks/some-empty-rows.json";
 
 test('[PETER_PARKER] Spreadparser does exists', () => {
     expect(Spreadparser).toBeDefined();
@@ -187,6 +188,15 @@ test('[OTTO OCTAVIUS] Parses insufficient data', () => {
     dataWithoutTitle.data.forEach(item => {
         expect(Object.keys(item).length).toBeLessThan(4);
     });
-    expect(dataWithoutTitle.data[dataWithoutTitle.data.length -1]).toEqual({ Id: 4, Price: 40 })
+    expect(dataWithoutTitle.data[dataWithoutTitle.data.length -1]).toEqual({ Id: 4, Price: 40 });
 
+    let someEmptyRows = Spreadparser.parse(SomeEmptyRows, {separator: '>', titleCase: 'camelCase'});
+    expect(someEmptyRows.data.length).toBe(3);
+
+    someEmptyRows = Spreadparser.parse(SomeEmptyRows, {
+        includeEmptyRows: true,
+        separator: '>',
+        titleCase: 'camelCase'
+    });
+    expect(someEmptyRows.data.length).toBe(4);
 });

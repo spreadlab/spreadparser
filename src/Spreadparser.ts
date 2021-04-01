@@ -13,7 +13,8 @@ interface Cell {
 interface SpreadparserOptions {
     separator?: string;
     titleCase?: CaseStyles;
-    headerRow?: number
+    headerRow?: number;
+    includeEmptyRows?: boolean
 }
 
 class Spreadparser {
@@ -21,7 +22,8 @@ class Spreadparser {
     private static DefaultSpreadparserOptions: SpreadparserOptions = {
         separator: '__',
         titleCase: 'none',
-        headerRow: 1
+        headerRow: 1,
+        includeEmptyRows: false
     };
 
     static parse(original: Spreadsheet, options: SpreadparserOptions = Spreadparser.DefaultSpreadparserOptions) {
@@ -30,8 +32,8 @@ class Spreadparser {
         const stringUtilities = new StringUtilities();
         let [headerRowNumber, firstContentRowNumber] = [1, 2];
 
-        const data = () => {
-            return original.feed.entry.map(entry => {
+        const data = (): any[] => {
+            const data: any[] =  original.feed.entry.map(entry => {
                 return {
                     col: Number(entry.gs$cell.col),
                     row: Number(entry.gs$cell.row),
@@ -61,6 +63,10 @@ class Spreadparser {
                 }
                 return data;
             }, []);
+
+            return options.includeEmptyRows === true
+                ? data
+                : data.filter((row: any): boolean => row !== null);
         };
 
         return {
