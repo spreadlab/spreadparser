@@ -2,7 +2,9 @@ import Spreadparser from "./Spreadparser";
 import Cores from "./mocks/cores.json";
 import CoresNested from "./mocks/cores-profundidade.json";
 import CitiesToVisit from './mocks/cities-to-visit.json';
-import CoresNestedCustomSeparator from "./mocks/cores-profundidade-separator-gt.json"
+import CoresNestedCustomSeparator from "./mocks/cores-profundidade-separator-gt.json";
+import JiraIssues from "./mocks/jira-issues.json";
+import FakePeople from "./mocks/fake-people.json";
 
 test('[PETER_PARKER] Spreadparser does exists', () => {
     expect(Spreadparser).toBeDefined();
@@ -72,7 +74,7 @@ test('[MIGUEL OHARA] Can parse Spreadsheet data with nested objects', () => {
 });
 
 test('[PETER PORKER] .parse method can receive different options', () => {
-    const coresNestedSheet = Spreadparser.parse(CoresNested, { titleCase: "camelCase"});
+    const coresNestedSheet = Spreadparser.parse(CoresNested, {titleCase: "camelCase"});
 
     coresNestedSheet.data.forEach(function (entry) {
         expect(entry.hsv.hue).toBeDefined();
@@ -127,5 +129,33 @@ test('[PETER PORKER] .parse method can receive different options', () => {
         },
         nome_web: 'lightblue'
     });
+});
 
+test('[TAKUYA YAMASHIRO ] Can parse Spreadsheet data not starting in first row', () => {
+    // Header row is less than zero
+    let jiraIssues = Spreadparser.parse(JiraIssues, {separator: "__", titleCase: 'snakeCase', headerRow: -2 });
+    expect(jiraIssues.data[0].tipo_de_item).toBe('Advertising');
+    expect(jiraIssues.data[12].resumo).toBe('Otimizar performance da Revista Pro utilizando CloudFront');
+    expect(jiraIssues.data.length).toBe(13);
+
+    // Header row is equal zero
+    jiraIssues = Spreadparser.parse(JiraIssues, {separator: "__", titleCase: 'snakeCase', headerRow: 0 });
+    expect(jiraIssues.data[0].tipo_de_item).toBe('Advertising');
+    expect(jiraIssues.data[12].resumo).toBe('Otimizar performance da Revista Pro utilizando CloudFront');
+    expect(jiraIssues.data.length).toBe(13);
+
+    // Header row is less than real first row number
+    jiraIssues = Spreadparser.parse(JiraIssues, {separator: "__", titleCase: 'snakeCase', headerRow: 6 });
+    expect(jiraIssues.data[0].tipo_de_item).toBe('Advertising');
+    expect(jiraIssues.data[12].resumo).toBe('Otimizar performance da Revista Pro utilizando CloudFront');
+    expect(jiraIssues.data.length).toBe(13);
+
+    // Header row is not present but content doesnt starts at row 1
+    jiraIssues = Spreadparser.parse(JiraIssues);
+    expect(jiraIssues.data[0]['Tipo de item']).toBe('Advertising');
+    expect(jiraIssues.data[12].Resumo).toBe('Otimizar performance da Revista Pro utilizando CloudFront');
+    expect(jiraIssues.data.length).toBe(13);
+
+    // const fakePeople = Spreadparser.parse(FakePeople, { headerRow: 5});
+    // console.log(fakePeople);
 });
