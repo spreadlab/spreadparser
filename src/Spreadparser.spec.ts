@@ -5,6 +5,8 @@ import CitiesToVisit from './mocks/cities-to-visit.json';
 import CoresNestedCustomSeparator from "./mocks/cores-profundidade-separator-gt.json";
 import JiraIssues from "./mocks/jira-issues.json";
 import FakePeople from "./mocks/fake-people.json";
+import TitleWithoutData from "./mocks/title-without-data.json";
+import DataWithoutTitle from "./mocks/data-without-title.json";
 
 test('[PETER_PARKER] Spreadparser does exists', () => {
     expect(Spreadparser).toBeDefined();
@@ -131,7 +133,7 @@ test('[PETER PORKER] .parse method can receive different options', () => {
     });
 });
 
-test('[TAKUYA YAMASHIRO ] Can parse Spreadsheet data not starting in first row', () => {
+test('[TAKUYA YAMASHIRO] Can parse Spreadsheet data not starting in first row', () => {
     // Header row is less than zero
     let jiraIssues = Spreadparser.parse(JiraIssues, {separator: "__", titleCase: 'snakeCase', headerRow: -2});
     expect(jiraIssues.data[0].tipo_de_item).toBe('Advertising');
@@ -172,4 +174,19 @@ test('[TAKUYA YAMASHIRO ] Can parse Spreadsheet data not starting in first row',
         },
         "telefone": "(11) 3885-2421"
     })
+});
+
+test('[OTTO OCTAVIUS] Parses insufficient data', () => {
+    const titleWithoutData = Spreadparser.parse(TitleWithoutData);
+    titleWithoutData.data.forEach(item => {
+        expect(item["Idade"]).toBeUndefined();
+    });
+    expect(titleWithoutData.data[3]).toEqual({ Nome: 'Denise', Sexo: 'Feminino' });
+
+    const dataWithoutTitle = Spreadparser.parse(DataWithoutTitle);
+    dataWithoutTitle.data.forEach(item => {
+        expect(Object.keys(item).length).toBeLessThan(4);
+    });
+    expect(dataWithoutTitle.data[dataWithoutTitle.data.length -1]).toEqual({ Id: 4, Price: 40 })
+
 });
