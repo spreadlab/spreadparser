@@ -2,6 +2,7 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from 'rollup-plugin-typescript2';
+import {terser} from "rollup-plugin-terser";
 
 // Reference: https://medium.com/@lucksp_22012/3-options-to-compile-typescript-to-js-rollup-tsc-babel-3319977a6946
 // this override is needed because Module format cjs does not support top-level await
@@ -17,12 +18,25 @@ export default {
     output: [
         {
             file: packageJson.main,
-            format: 'cjs', // commonJS
+            format: 'cjs', // commonJS for node
             sourcemap: true,
+            exports: 'auto'
+        },
+        {
+            file: packageJson.umd,
+            format: 'umd', // UMD for browser, unpkg.com
+            name: 'Spreadparser',
+            sourcemap: true,
+            compact: true,
+            plugins: [terser({
+                output: {
+                    comments: false,
+                }
+            })]
         },
         {
             file: packageJson.module,
-            format: 'esm', // ES Modules
+            format: 'esm', // ES Modules for ES6 projects
             sourcemap: true,
         }
     ],
@@ -30,7 +44,9 @@ export default {
         peerDepsExternal(),
         resolve(),
         commonjs(),
-        typescript({ tsconfig: './tsconfig.json' }),
+        typescript({
+            tsconfig: './tsconfig.json'
+        }),
         commonjs({
             exclude: 'node_modules',
             ignoreGlobal: true,
