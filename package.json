@@ -1,10 +1,10 @@
 {
   "name": "spreadparser",
-  "version": "0.1.0",
-  "description": "Módulo JavaScript que permite uso de dados de planilhas públicas do Google Spreadsheet em formato amigável para aplicações frontend.",
+  "version": "0.1.1",
+  "description": "Javascript module to easily parse data from Google Spreadsheet.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "umd": "dist/spreadparser.min.js",
+  "unpkg": "dist/spreadparser.min.js",
   "scripts": {
     "build": "yarn clear && rollup -c rollup.config.ts",
     "test": "jest",

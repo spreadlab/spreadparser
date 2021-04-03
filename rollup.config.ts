@@ -23,7 +23,7 @@ export default {
             exports: 'auto'
         },
         {
-            file: packageJson.umd,
+            file: packageJson.unpkg,
             format: 'umd', // UMD for browser, unpkg.com
             name: 'Spreadparser',
             sourcemap: true,
