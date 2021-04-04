@@ -9,7 +9,9 @@
     "dist/unpkg",
     "dist/umd",
     "dist/mjs",
-    "dist/typings"
+    "dist/typings",
+    "dist/index.html",
+    "README.md"
   ],
   "license": "MIT",
   "scripts": {
