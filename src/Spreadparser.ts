@@ -26,7 +26,7 @@ class Spreadparser {
         includeEmptyRows: false
     };
 
-    static parse(original: Spreadsheet, options: SpreadparserOptions = Spreadparser.DefaultSpreadparserOptions) {
+    static parse(original: Spreadsheet, options: SpreadparserOptions = Spreadparser.DefaultSpreadparserOptions): Keyable | any {
         options = {...Spreadparser.DefaultSpreadparserOptions, ...options};
 
         const stringUtilities = new StringUtilities();
@@ -76,7 +76,7 @@ class Spreadparser {
         }
     }
 
-    static getSpreadsheetUrl(spreadsheetId: String, sheetNumber: number = 1) {
+    static getSpreadsheetUrl(spreadsheetId: string, sheetNumber = 1): string {
         return `https://spreadsheets.google.com/feeds/cells/${spreadsheetId}/${sheetNumber}/public/full?alt=json`
     }
 }

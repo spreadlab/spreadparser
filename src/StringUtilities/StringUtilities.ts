@@ -3,7 +3,7 @@ import {CaseStyles} from "../CaseStyles";
 
 interface ReplaceMethod {
     from: RegExp;
-    to: Function;
+    to: any;
 }
 
 export default class StringUtilities {
@@ -62,7 +62,7 @@ export default class StringUtilities {
     private static toSnakeCase(original: string): string {
         return StringUtilities.clear(original)
             .replace(/[^a-zA-Z0-9]+(.)/g, (m, char) => `_${char}`)
-    };
+    }
 
     private static dontChangeCase(original: string): string {
         return original;

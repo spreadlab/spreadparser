@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Spreaparser</title>
+</head>
+
+<body>
+    <h1>Spreaparser</h1>
+    <p>Please check console to test Spreaparser functions</p>
+    <script src="/unpkg/spreadparser.iife.min.js"></script>
+    <script type="text/javascript">
+        fetch(Spreadparser.getSpreadsheetUrl("1Rr2y3ljAJPApYXcPyLXwxLciUCxz8XCu1Q0OnWH1l-U", 2))
+            .then(response => response.json())
+            .then(json => Spreadparser.parse(json, {titleCase: 'camelCase'}))
+            .then(data => console.log(data))
+    </script>
+</body>
+</html>

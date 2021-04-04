@@ -8,6 +8,7 @@ import FakePeople from "./mocks/fake-people.json";
 import TitleWithoutData from "./mocks/title-without-data.json";
 import DataWithoutTitle from "./mocks/data-without-title.json";
 import SomeEmptyRows from "./mocks/some-empty-rows.json";
+import Keyable from "./KeyableInterface"
 
 test('[PETER_PARKER] Spreadparser does exists', () => {
     expect(Spreadparser).toBeDefined();
@@ -59,7 +60,7 @@ test('[HOBIE BROWN] Can parse lists', () => {
 test('[MIGUEL OHARA] Can parse Spreadsheet data with nested objects', () => {
     const coresNestedSheet = Spreadparser.parse(CoresNested);
     expect(Array.isArray(coresNestedSheet.data)).toBe(true);
-    coresNestedSheet.data.forEach(function (entry) {
+    coresNestedSheet.data.forEach(function (entry: Keyable) {
         expect(entry.HSV.hue).toBeDefined();
         expect(entry.HSV.saturation).toBeDefined();
         expect(entry.HSV.value).toBeDefined();
@@ -79,7 +80,7 @@ test('[MIGUEL OHARA] Can parse Spreadsheet data with nested objects', () => {
 test('[PETER PORKER] .parse method can receive different options', () => {
     const coresNestedSheet = Spreadparser.parse(CoresNested, {titleCase: "camelCase"});
 
-    coresNestedSheet.data.forEach(function (entry) {
+    coresNestedSheet.data.forEach(function (entry: Keyable) {
         expect(entry.hsv.hue).toBeDefined();
         expect(entry.hsv.saturation).toBeDefined();
         expect(entry.hsv.value).toBeDefined();
@@ -108,7 +109,7 @@ test('[PETER PORKER] .parse method can receive different options', () => {
         separator: '>',
         titleCase: "snakeCase"
     });
-    coresNestedCustomSeparatorSheet.data.forEach(function (entry) {
+    coresNestedCustomSeparatorSheet.data.forEach(function (entry: Keyable) {
         expect(entry.hsv.hue).toBeDefined();
         expect(entry.hsv.saturation).toBeDefined();
         expect(entry.hsv.value).toBeDefined();
@@ -179,13 +180,13 @@ test('[TAKUYA YAMASHIRO] Can parse Spreadsheet data not starting in first row', 
 
 test('[OTTO OCTAVIUS] Parses insufficient data', () => {
     const titleWithoutData = Spreadparser.parse(TitleWithoutData);
-    titleWithoutData.data.forEach(item => {
+    titleWithoutData.data.forEach((item: Keyable) => {
         expect(item["Idade"]).toBeUndefined();
     });
     expect(titleWithoutData.data[3]).toEqual({ Nome: 'Denise', Sexo: 'Feminino' });
 
     const dataWithoutTitle = Spreadparser.parse(DataWithoutTitle);
-    dataWithoutTitle.data.forEach(item => {
+    dataWithoutTitle.data.forEach((item: Keyable) => {
         expect(Object.keys(item).length).toBeLessThan(4);
     });
     expect(dataWithoutTitle.data[dataWithoutTitle.data.length -1]).toEqual({ Id: 4, Price: 40 });
