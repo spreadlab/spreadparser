@@ -137,8 +137,12 @@ Here are some live examples for spreadparser:
 * [A list of brazilian named colors](https://codepen.io/teles/pen/MWJmjwj) - VueJS + Bulma + Spreadpaser
 
 
-## Documentation: getSpreadsheetUrl method
-## Documentation: parse method
+## Documentation: getSpreadsheetUrl method (soon)
+## Documentation: parse method (soon)
+
+## License
+
+[MIT](LICENSE) - Jota Teles - 2021
 
 ## How can you contribute?
 
