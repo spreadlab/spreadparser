@@ -141,13 +141,14 @@ import Spreadparser from "spreadparser";
 It is possible to use Spreadparser for server side projects using node. For instance you can create a 11ty blog or a command line tool with Spreadparser:
 
 Install it as a dependency: 
-```
+
+```bash
 yarn add spreadparser # or npm install spreadparser
 ```
 
 Now you can import Spreadparser as following:
 
-```
+```bash
 const Spreadparser = require("spreadparser/dist/umd/spreadparser.js");
 ```
 
@@ -155,7 +156,7 @@ const Spreadparser = require("spreadparser/dist/umd/spreadparser.js");
 
 Spreadparser is available at jsDelivr CDN, for using it all you have to do is add proper url as script src to your HTML page:
 
-```
+```html
 <script src="https://unpkg.com/spreadparser">
 ```
 
@@ -176,7 +177,7 @@ Here are some live examples for Spreadparser:
 
 | Parameter | Type | Default | Required |
 |-|-|-|-|
-|spreadsheetId|string||true|
+|spreadsheetId|string|undefined|true|
 |sheetNumber|number|1|false|
 
 Sample usage:
@@ -228,7 +229,7 @@ So, using the following options:
 
 ```JavaScript
 const persons = Spreadparser.parse(originalData, {
-  separator: '>'
+  separator: '>',
   titleCase: 'camelCase',
   headerRow: 4,
   includeEmptyRows: true
