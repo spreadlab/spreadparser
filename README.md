@@ -35,7 +35,7 @@ But it's probably not appropriate for:
 
 ## Features
 
-<img src="https://github.com/spreadlab/spreadparser/blob/main/features-screenshort.png?raw=true" alt="Features samples">
+<img src="https://github.com/spreadlab/spreadparser/blob/main/features-screenshot.png?raw=true" alt="Features samples">
 
 
 * **Lightweigth**: less than 2kb and zero dependencies 📦
