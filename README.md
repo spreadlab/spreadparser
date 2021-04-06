@@ -28,14 +28,13 @@ So, using Spreadparser could be useful for some goals such as:
 
 But it's probably not appropriate for:
 
-* 🛑 Automate spreadsheet update
+* 🛑 Automatic spreadsheet update
 * 🛑 Complex project based on relational database relations 
 * 🛑 Project with a huge amount of data
 
 ## Features
 
 <img src="https://github.com/spreadlab/spreadparser/blob/main/features-screenshot.jpeg?raw=true" alt="Features samples">
-
 
 * **Lightweigth**: less than 2kb and zero dependencies 📦
 * **Versatile**: Can be used for ES6/web projects, node project and as script tag
