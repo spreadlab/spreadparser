@@ -205,7 +205,65 @@ Right bellow theres documentation for `Spreadparser.parse` options.
 
 ### Parse Options
 
-> Soon
+The second parameter for `Spreadparse.parse` is an object with properties. These properties are described below:
+
+| Option | Type  | Default| Description|
+|-|-|-|-|
+| separator | string | `'__'` | String portion used to separate nested objects |
+| titleCase | string | `'none'` | Selected case style for data keys |
+| headerRow | number | `1` | Row number for title row |
+| includeEmptyRows | boolean | `false` | Use to include empty rows as part os `data` array |
+
+Here are some complete options examples.
+Let's say we have a Google Spreadsheet as the following, we are going to asume that row column represents a real row number for each row:
+
+|row|Person > Name | Adress > Street > Name | Adress > Street > Number | Hobbies | Hobbies|
+|-|-|-|-|-|-|
+|5|Benjamin|Yancy| 32 | Gym | Reading|
+| | | | | | |
+|7|Peter|Queens Street| 62| Climb walls | Science | 
+
+For the above Google Spreadsheet, the title row is number 4 not 1 as usual.
+So, using the following options:
+
+```JavaScript
+const persons = Spreadparser.parse(originalData, {
+  separator: '>'
+  titleCase: 'camelCase',
+  headerRow: 4,
+  includeEmptyRows: true
+})
+```
+
+The `persons.data` array will be:
+
+```JSON
+[{
+  "row": 5,
+  "person": {
+    "name": "Benjamin"
+  },
+  "adress": {
+    "street": {
+      "name": "Yancy",
+      "number": 32
+    }
+  },
+  "hobbies": ["Gym", "Reading"]
+}, {}, {
+  "row": 7,
+  "person": {
+    "name": "Peter"
+  },
+  "adress": {
+    "street": {
+      "name": "Queens Street",
+      "number": 62
+    }
+  },
+  "hobbies": ["Climb Walls", "Science"]
+}]
+```
 
 ## How can you contribute?
 
