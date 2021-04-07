@@ -9,6 +9,23 @@
 
 <p align="center">Google Spreadsheet data for human beings... and developers!</p>
 
+<p align="center">
+<strong>Jump to section:</strong>  
+<a href="#resources">Resources | </a>
+<a href="#features">Features | </a>
+<a href="#getting-started"> Getting Started | </a>
+<a href="#publishing-your-google-spreadsheet-to-web">Publishing your Google Spreadsheet to web | </a>
+<a href="#1-include-spreadparser-on-your-site">Include Spreadparser on your site. | </a>
+<a href="#installation-for-web-projects">Installation (for web projects) | </a>
+<a href="#installation-for-node-projects">Installation (for node projects) | </a>
+<a href="#using-it-as-a-third-party-library">Using it as a third party library | </a>
+<a href="#live-examples">Live Examples | </a>
+<a href="#documentation-getspreadsheeturl-method">Documentation: getSpreadsheetUrl method | </a>
+<a href="#documentation-parse-method">Documentation: parse method | </a>
+<a href="#how-can-you-contribute">How can you contribute? | </a>
+<a href="#license">License </a>
+</strong>  
+
 ## Resources
 
 Spreadparser turns a JSON endpoint from Google Spreadsheets into a easier to understand list of objects.
