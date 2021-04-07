@@ -29,28 +29,55 @@ So, using Spreadparser could be useful for some goals such as:
 
 But it's probably not appropriate for:
 
-* 🛑 Automate spreadsheet update
+* 🛑 Automatic spreadsheet update
 * 🛑 Complex project based on relational database relations 
 * 🛑 Project with a huge amount of data
+* 🛑 Google Spreadsheet data that can't be published to the web
 
 ## Features
 
 <img src="https://github.com/spreadlab/spreadparser/blob/main/features-screenshot.png?raw=true" alt="Features samples">
 
 
-* **Lightweigth**: less than 2kb and zero dependencies 📦
-* **Versatile**: Can be used for ES6/web projects, node project and as script tag
-* **Tested**: Highly covered with unit testing, written with typescript 💯
-* **Understands your data as it is**:
-    * "TRUE", "FALSE" and checkboxes become boolean values `true` and `false`
-    * Integers and floats become real numbers like `10` e `0.33`
-    * Repeated title columns are parsed as arrays 
-    * Allow spreadsheet data to be parsed as nested objects with inner properties and value 
-    * Translate your data to your desired pattern like camel case or snake case
+* 📦 **Lightweigth**: less than 2kb and zero dependencies 
+* 🧰 **Versatile**: Can be used for ES6/web projects, node project and as script tag
+* 👍 **Tested**: Highly covered with unit testing, written with typescript 
+* 🎯 **Understands your data as it is**:
+    * ➡️ `"TRUE"`, `"FALSE"` strings and checkboxes become boolean values `true` and `false`
+    * ➡️ Integers and floats become real numbers like `10` e `0.33`
+    * ➡️ Repeated title columns are parsed as arrays 
+    * ➡️ Allow spreadsheet data to be parsed as nested objects with inner properties and value 
+    * ➡️ Translate your data to your desired pattern like camel case or snake case
 
 ## Getting Started
 
 Compiled and production-ready code can be found in the `dist` directory. The `src` directory contains development code.
+
+### Publishing your Google Spreadsheet to web
+
+First of all you need to have a [Google Spreadsheet](https://docs.google.com/spreadsheets/u/0/) with your data and publish it to the web.
+
+<details>
+  <summary><strong>Check how to 'Publish to the web' in 4 steps ⬇️</strong></summary>
+  <p>1. On your spreadsheet click on<strong> File > Publish to Web</strong></p>
+  <img src="https://github.com/spreadlab/spreadparser/blob/main/publishing-to-web-step-1.png?raw=true" alt="Publish to Web screenshot - Step 1">
+
+  <p>2. In the following dialog click on <strong>'Publish'</strong></p>  
+  <img src="https://github.com/spreadlab/spreadparser/blob/main/publishing-to-web-step-2.png?raw=true" alt="Publish to Web screenshot - Step 2">
+  
+  <p>3. Its Published! You don't need to copy the generated url</p>
+  <img src="https://github.com/spreadlab/spreadparser/blob/main/publishing-to-web-step-3.png?raw=true" alt="Publish to Web screenshot - Step 3">
+
+  <p>4. Open the JSON endpoint containing your data</p>
+  <p>The JSON url is made of your spreadsheet id, your spreadsheet id is part of your spreadsheet edition url.</p>
+  <p>For instance, if you have this spreadsheet edition url:</p>
+  <p><code>https://docs.google.com/spreadsheets/u/1/d/<strong>13FWF89zLCqKzeUzUfOwUqbRGhNSW3dLVHzItCe9WIAw</strong>/edit#gid=0</code></p>
+  <p> Your spreadsheet url is <strong>13FWF89zLCqKzeUzUfOwUqbRGhNSW3dLVHzItCe9WIAw</strong></p>
+  <img src="https://github.com/spreadlab/spreadparser/blob/main/publishing-to-web-step-4.png?raw=true" alt="Publish to Web screenshot - Step 4">  
+
+</details>
+
+Now that you have your spreadsheet JSON running let's use Spreadparser.
 
 ### 1. Include Spreadparser on your site.
 
@@ -126,13 +153,13 @@ Giving us the following output:
 
 Install it as a dependency: 
 
-```
+```bash
 yarn add spreadparser # or npm install spreadparser
 ```
 
 Now you can import Spreadparser as following:
 
-```
+```bash
 import Spreadparser from "spreadparser";
 ```
 
@@ -177,8 +204,8 @@ Here are some live examples for Spreadparser:
 
 | Parameter | Type | Default | Required |
 |-|-|-|-|
-|spreadsheetId|string|undefined|true|
-|sheetNumber|number|1|false|
+|spreadsheetId|string|`undefined`|`true`|
+|sheetNumber|number|`1`|`false`|
 
 Sample usage:
 
@@ -199,8 +226,8 @@ So you can get your Spreadsheet JSON url and fetch data in your own way.
 
 | Parameter | Type | Required |
 |-|-|-|
-|originalData|object|true|
-|options|object|false|
+|originalData|object|`true`|
+|options|object|`false`|
 
 Right bellow theres documentation for `Spreadparser.parse` options.
 
@@ -268,10 +295,13 @@ The `persons.data` array will be:
 
 ## How can you contribute?
 
-* Give a :star: to this project if you like it
-* Use it as npm dependency for some of your projects
-* Help this project opening an issue, you may suggest a feature, documentation or share a bug
-* Improve this project by creating a pull request 
-* Create a new live example using Spreadparser
-* Spread the idea!
+* Give a :star: to [this project](https://github.com/spreadlab/spreadparser) if you like it
+* Trust it as [npm dependency](https://www.npmjs.com/package/spreadparser) for some of your projects
+* Help this project [opening an issue](https://github.com/spreadlab/spreadparser/issues), you may suggest a feature, documentation or share a bug
+* Improve this project by creating a [pull request](https://github.com/spreadlab/spreadparser/pulls)
+* Create a new live example using Spreadparser, maybe using [codepen](http://codepen.io/)
+* Spread the idea! 
 
+## License
+
+[MIT](LICENSE) - Jota Teles - 2017
