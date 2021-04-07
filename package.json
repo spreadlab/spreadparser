@@ -4,9 +4,10 @@
   "description": "Javascript module to easily parse data from Google Spreadsheet.",
   "main": "dist/umd/spreadparser.js",
   "module": "dist/mjs/spreadparser.mjs",
-  "unpkg": "dist/unpkg/spreadparser.iife.min.js",
+  "unpkg": "dist/spreadparser.min.js",
   "files": [
-    "dist/unpkg",
+    "dist/spreadparser.min.js",
+    "dist/spreadparser.min.js.map",
     "dist/umd",
     "dist/mjs",
     "dist/typings",

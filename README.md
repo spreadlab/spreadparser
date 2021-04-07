@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <a href="https://github.com/spreadlab/spreadparser">
-    <img src="https://github.com/spreadlab/spreadparser/blob/main/logo.png?raw=true" alt="Spreadparser Logo" width="180"></a>
+    <img src="https://github.com/spreadlab/spreadparser/blob/main/readme_data/logo.png?raw=true" alt="Spreadparser Logo" width="180"></a>
   <br>
   Spreadparser
   <br>
@@ -36,7 +36,7 @@ But it's probably not appropriate for:
 
 ## Features
 
-<img src="https://github.com/spreadlab/spreadparser/blob/main/features-screenshot.png?raw=true" alt="Features samples">
+<img src="https://github.com/spreadlab/spreadparser/blob/main/readme_data/features-screenshot.png?raw=true" alt="Features samples">
 
 
 * 📦 **Lightweigth**: less than 2kb and zero dependencies 
@@ -60,20 +60,20 @@ First of all you need to have a [Google Spreadsheet](https://docs.google.com/spr
 <details>
   <summary><strong>Check how to 'Publish to the web' in 4 steps ⬇️</strong></summary>
   <p>1. On your spreadsheet click on<strong> File > Publish to Web</strong></p>
-  <img src="https://github.com/spreadlab/spreadparser/blob/main/publishing-to-web-step-1.png?raw=true" alt="Publish to Web screenshot - Step 1">
+  <img src="https://github.com/spreadlab/spreadparser/blob/main/readme_data/publishing-to-web-step-1.png?raw=true" alt="Publish to Web screenshot - Step 1">
 
   <p>2. In the following dialog click on <strong>'Publish'</strong></p>  
-  <img src="https://github.com/spreadlab/spreadparser/blob/main/publishing-to-web-step-2.png?raw=true" alt="Publish to Web screenshot - Step 2">
+  <img src="https://github.com/spreadlab/spreadparser/blob/main/readme_data/publishing-to-web-step-2.png?raw=true" alt="Publish to Web screenshot - Step 2">
   
   <p>3. Its Published! You don't need to copy the generated url</p>
-  <img src="https://github.com/spreadlab/spreadparser/blob/main/publishing-to-web-step-3.png?raw=true" alt="Publish to Web screenshot - Step 3">
+  <img src="https://github.com/spreadlab/spreadparser/blob/main/readme_data/publishing-to-web-step-3.png?raw=true" alt="Publish to Web screenshot - Step 3">
 
   <p>4. Open the JSON endpoint containing your data</p>
   <p>The JSON url is made of your spreadsheet id, your spreadsheet id is part of your spreadsheet edition url.</p>
   <p>For instance, if you have this spreadsheet edition url:</p>
   <p><code>https://docs.google.com/spreadsheets/u/1/d/<strong>13FWF89zLCqKzeUzUfOwUqbRGhNSW3dLVHzItCe9WIAw</strong>/edit#gid=0</code></p>
   <p> Your spreadsheet url is <strong>13FWF89zLCqKzeUzUfOwUqbRGhNSW3dLVHzItCe9WIAw</strong></p>
-  <img src="https://github.com/spreadlab/spreadparser/blob/main/publishing-to-web-step-4.png?raw=true" alt="Publish to Web screenshot - Step 4">  
+  <img src="https://github.com/spreadlab/spreadparser/blob/main/readme_data/publishing-to-web-step-4.png?raw=true" alt="Publish to Web screenshot - Step 4">  
 
 </details>
 
