@@ -1,7 +1,7 @@
 {
   "name": "spreadparser",
-  "version": "0.1.2",
-  "description": "Javascript module to easily parse data from Google Spreadsheet.",
+  "version": "1.0.0",
+  "description": "Small javaScript module to easily parse data from Google Spreadsheet.",
   "main": "dist/umd/spreadparser.js",
   "module": "dist/mjs/spreadparser.mjs",
   "unpkg": "dist/spreadparser.min.js",
