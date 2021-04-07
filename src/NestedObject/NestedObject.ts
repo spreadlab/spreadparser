@@ -14,7 +14,7 @@ class NestedObject {
         titleCase: 'none'
     };
 
-    static assign(target: Keyable, value: string | number | boolean, paths: string, options: AssignOptions = NestedObject.DefaultAssignOptions): void {
+    static assign(target: Keyable, value: any, paths: string, options: AssignOptions = NestedObject.DefaultAssignOptions): void {
         options = {...NestedObject.DefaultAssignOptions, ...options};
         const pathList = (paths || "").split(options.separator as string);
         const property: string = StringUtilities.toCase(pathList.shift() || "", options.titleCase);
