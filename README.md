@@ -304,4 +304,4 @@ The `persons.data` array will be:
 
 ## License
 
-[MIT](LICENSE) - Jota Teles - 2017
+[MIT](LICENSE) - Jota Teles - 2021
